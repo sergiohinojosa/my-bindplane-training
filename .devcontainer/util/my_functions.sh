@@ -13,6 +13,14 @@ customFunction(){
 
 }
 
+
+customFunction2(){
+  printInfoSection "This is a custom function that calculates 1 + 1"
+
+  printInfo "3 + 3 = $(( 3 + 3 ))"
+
+}
+
 startLogGenerator(){
 local logdir="${1:-/var/log/bpsystem}"
 
